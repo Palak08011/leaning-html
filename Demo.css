@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  overflow: hidden;
+  background-color: darkblue;
+  padding: 10px;
+  border: 2px solid darkblue;
+  border-radius: 15px;
+}
+.left a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.right {
+  float: right;
+  padding: 12px;
+}
+@media screen and (max-width: 700px) {
+  .left a {
+    float: inline-start;
+    display: flex;
+  }
+  .right {
+    float: left;
+  }
+}
+body {
+  background-image: url("/home/hs/Desktop/learn-html/images/images (2).jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100cm;
+}
+.new user {
+  margin-left: 20px;
+}
+p {
+  font-size: 20px;
+}
+input[type="text"] {
+  border-radius: 5px;
+}
+input[type="button"] {
+  border-radius: 7px;
+  padding: 10px;
+}
+.AboutUs {
+  position: relative;
+  top: 20px;
+  width: 30%;
+  float: left;
+}
+.detail {
+  position: relative;
+  top: 150px;
+  width: 70%;
+  float: right;
+}
+.footer {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 8%;
+  text-align: center;
+  background-color: darkgray;
+  border: 2px solid darkgray;
+  border-radius: 7px;
+}

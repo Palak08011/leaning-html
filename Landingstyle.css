@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    border-style:solid;
+}
+p{ 
+     border-style:dotted;
+    padding-left:20px;
+    padding-bottom:30px;
+    margin-top:50px;
+    margin-right:20px;
+    margin-left:20px; 
+}
+div{
+    border-style:dashed;
+    padding:20px;
+}
+* {
+box-sizing: border-box;
+}
+button{
+    position:relative;
+    top:10px;
+    right:50px;
+}

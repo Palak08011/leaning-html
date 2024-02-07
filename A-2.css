@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    text-align: center;
+    background-color: purple;
+    padding: 10px;
+}
+.left{
+   
+    flex: 70%;
+}
+.right{
+   
+    flex: 30%;
+}
+@media (max-width: 480px) {
+    .right, .left {
+      flex: 100%;
+    }
+  }
