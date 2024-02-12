@@ -9,21 +9,21 @@
       }
     </style>
     <script>
-      function validateform() {
-        let a = document.forms["basicform"]["emailid"].value;
-        if ((a = "")) {
+      function validateForm() {
+        let a = document.basicform.emailid.value;
+        if (a === "") {
           alert("Email must be filled out");
         }
       }
     </script>
   </head>
   <body>
-    <form name="basicform" onsubmit="validateform()">
+    <form name="basic form" onsubmit="validateForm()">
       <div>Name : <input type="text" name="fname" /></div>
       <br />
       <div>Email : <input type="email" name="emailid" /></div>
       <div class="button1">
-        <input type="button" name="sbutton" value="SUBMIT" />
+        <input type="submit" name="sbutton" value="SUBMIT" />
       </div>
     </form>
   </body>
