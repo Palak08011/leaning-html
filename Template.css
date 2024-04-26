@@ -1,0 +1,134 @@
+.btn3 {
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+.btn1:hover {
+  background-color: aqua;
+}
+.btn2:hover {
+  background-color: aqua;
+}
+
+.login_btn {
+  position: fixed;
+  top: 10px;
+  right: 550px;
+}
+
+.login_btn button {
+  height: 30px;
+  width: 80px;
+}
+.Navbar h1 {
+  position: fixed;
+  top: 10px;
+}
+.Navbar {
+  background-color: brown;
+}
+
+.section_1 {
+  position: absolute;
+  top: 150px;
+  height: 400px;
+  width: 800px;
+  border: 1px solid black;
+  margin-left: 268px;
+}
+.section_1::before {
+  content: "";
+  border: 2px solid black;
+  position: absolute;
+  top: 20px;
+  left: 450px;
+  height: 300px;
+}
+.section_1 h2,
+h3 {
+  padding-left: 10px;
+}
+
+.section_1 p {
+  border: 1px solid black;
+  width: 40%;
+  margin-left: 10px;
+}
+
+.section_1 img {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 80px;
+  width: 90px;
+  float: right;
+}
+.footer {
+  font-size: 20px;
+  text-align: center;
+}
+.poster {
+  border: 1px solid black;
+
+  margin-top: 100px;
+  display: flex;
+}
+.detail {
+  margin-top: 10px;
+  flex: 50%;
+}
+.p_image {
+  width: 30%;
+  flex: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.p_detail {
+  border: 1px solid black;
+  width: 300px;
+}
+.images_Leh {
+  height: 200px;
+  width: 300px;
+}
+.carousel_container {
+  margin-top: 600px;
+}
+
+/* css for article of poster-type */
+/* .poster-type {
+  border: 1px solid black;
+  margin: 50px 10px;
+}
+.postel_detail {
+  border: 1px solid black;
+}
+.poster-type img {
+  width: 30px;
+  height: 30px;
+}
+.poster-type .eventimg img {
+  width: 300px;
+  height: 200px;
+} */
+
+/* css for image-slider */
+/* .image-slider .slides img {
+  height: 200px;
+  width: 300px;
+}
+.image-slider button {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.image-slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */

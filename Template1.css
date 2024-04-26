@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: brown;
+  height: 50px;
+
+  width: 100%;
+}
+.login_btn {
+  margin: 0 auto;
+}
+.btn3 {
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.heading_1 {
+  font-size: 20px;
+}
+.body {
+  background-color: bisque;
+  height: 700px;
+}

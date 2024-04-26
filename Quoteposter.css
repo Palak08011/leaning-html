@@ -1,0 +1,52 @@
+body {
+  background-color: beige;
+  margin: 0;
+}
+img {
+  border: 1px solid beige;
+  border-radius: 50%;
+}
+.image_1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.h_line1 {
+  border: 3px solid brown;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -50px;
+}
+.line_1 {
+  text-align: center;
+  font-size: 50px;
+  color: brown;
+  margin-top: 50px;
+}
+.line_2 {
+  color: brown;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+.line_3,
+.line_4 {
+  text-align: center;
+  font-size: 50px;
+  color: brown;
+}
+.line_5 {
+  color: brown;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(219, 219, 107);
+}
+.h_line2 {
+  border: 3px solid brown;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
